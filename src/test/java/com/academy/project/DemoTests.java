@@ -25,6 +25,7 @@ public class DemoTests extends BaseTest {
 
         Assert.assertTrue(title.contains(value));
     }
+
     @Test(dataProvider = "testDataProvider")
     public void checkPage(String expectedName){
         SubscribersPage sp = new SubscribersPage(driver)
